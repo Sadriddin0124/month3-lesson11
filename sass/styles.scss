@@ -1,0 +1,170 @@
+@import url('./collection.css');
+@import url('./creators.css');
+@import url('./categories.css');
+@import url('./nft.css');
+@import url('./magic.css');
+@import url('./works.css');
+@import url('./digest.css');
+@import url('./footer.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    // background-color: #2B2B2B;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../fonts/font/Work_Sans/static/WorkSans-Regular.ttf'),format(truetype);
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../fonts/font/Space_Mono/SpaceMono-Regular.ttf'),format(truetype);
+}
+
+%btn__global {
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+    // padding: 0px 30px !important;
+    font-size: 16px !important;
+}
+
+%title {
+    font-size: 67px;
+    font-weight: 600;
+    // line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+%subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    // line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.space {
+    font-family: 'Space Mono';
+    font-weight: 700;
+}
+
+body {
+    background-color: #2B2B2B !important;
+}
+
+.navbar {
+    padding: 0px;
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.navbar__list {
+    display: flex;
+    padding: 20px;
+}
+
+.navbar__btn {
+    @extend %btn__global;
+}
+
+.fa-user {
+    background: transparent;
+}
+
+.navbar__logo {
+    width: 243px;
+    height: 32px;
+    img {
+        width: 100%;
+    }
+}
+
+.header__text {
+    max-width: 510px;
+}
+
+.header__card {
+    border: none !important;
+    border-radius: 20px  !important;
+    background: #3B3B3B !important;
+    max-width: 510px;
+    img {
+        width: 100%;
+    }
+}
+
+.header {
+    padding: 0 20px;
+    justify-content: center !important;
+}
+
+.header__card-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.card {
+    background-color: transparent;
+    img {
+        background-color: transparent;
+
+    }
+}
+
+.header__card-text {
+    font-size: 16px;
+}
+
+.header__btn {
+    @extend %btn__global;
+    img {
+        background-color: transparent;
+        color: #fff;
+    }
+}
+
+.bars div {
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 6px 30px;
+    background-color: #fff;
+    display: none;
+}
+
+.header__title {
+    max-width: 500px;
+    @extend %title;
+}
+
+.header__subtitle {
+    max-width: 500px;
+}
+
+.card {
+    background-color: #3B3B3B !important;
+    height: 400px !important;
+    width: 510px !important;
+}
+
+.header__statistics {
+    max-width: 510px;
+}
+
+.header__statistic {
+    width: 150px;
+}
+
+.header__statistic-num {
+    font-size: 28px;
+}

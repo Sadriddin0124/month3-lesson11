@@ -1,0 +1,39 @@
+.categories__title {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.categories__title {
+  align-self: flex-start;
+}
+
+.categories__cards {
+  max-width: 1200px;
+}
+
+.categories__card {
+  margin: 0 20px;
+  width: 240px;
+  height: 316px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+
+.categories__img {
+  width: 240px;
+  height: 240px;
+}
+.categories__img img {
+  width: 100%;
+}
+
+.categories__card-title {
+  background-color: transparent;
+}
+
+.row {
+  flex-wrap: wrap;
+}/*# sourceMappingURL=categories.css.map */

@@ -1,0 +1,19 @@
+@media (max-width:990px) {
+    .navbar__list {
+        display: none !important;
+    }
+    .bars div {
+        display: block;
+    }
+    .c-card-3 {
+        display: none !important;
+    }
+
+    h1 {
+        font-size: 28px !important;
+    }
+
+    .mushroom {
+        justify-content: center !important;
+    }
+}

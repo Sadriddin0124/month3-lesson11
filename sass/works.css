@@ -1,0 +1,49 @@
+.works__title {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.works__subtitle {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.works__card {
+  max-width: 330px;
+  background: #3B3B3B;
+}
+
+.works__card-title, .works__card-subtitle, .works__card-img {
+  background: transparent;
+}
+
+.works__card-img {
+  background-color: transparent;
+}
+.works__card-img img {
+  background-color: transparent;
+}
+
+.works__card-title {
+  font-size: 22px;
+}
+
+.works__card-subtitle {
+  font-size: 16px;
+}
+
+.works__title {
+  align-self: flex-start;
+  margin-left: 200px;
+}
+
+.works__subtitle {
+  align-self: flex-start;
+  margin-left: 200px;
+}/*# sourceMappingURL=works.css.map */

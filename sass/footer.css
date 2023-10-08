@@ -1,0 +1,18 @@
+.footer .footer__items {
+  gap: 80px !important;
+}
+
+.footer__item-text {
+  font-size: 16px;
+  color: #CCCCCC;
+  max-width: 250px;
+}
+
+.footer__line {
+  max-width: 1000px;
+  width: 100%;
+  padding: 12px;
+  border-top: 1px solid #858584;
+  color: #CCCCCC;
+  font-size: 12px;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sass/styles.css">
+    <link rel="stylesheet" href="./sass/media.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid p-0 m-0">
+        <nav class="navbar py-4 me-0 d-flex align-items-sm-center w-100 justify-content-between ps-5">
+            <div class="navbar__logo">
+                <img src="./images/nav-logo/nav/logo.png" alt="logo">
+            </div>
+            <ul class="navbar__list  gap-5 mt-3 align-items-sm-center  ">
+                <li>
+                    <a class="navbar__link text-light" href="#">Marketplace</a>
+                </li>
+                <li>
+                    <a class="navbar__link text-light" href="#">Rankings</a>
+                </li>
+                <li>
+                    <a class="navbar__link text-light" href="#">Connect a wallet</a>
+                </li>
+                <li>
+                    <button class="btn navbar__btn rounded-3 text-light">
+                        <i class="fa-regular fa-user"></i>
+                        Sign Up
+                    </button>
+                </li>
+            </ul>
+            <div class="bars">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <header class="header p-5 d-md-flex justify-content-sm-center gap-5 flex-sm-wrap-reverse">
+            <div class="header__text text-light d-flex flex-column gap-3 align-items-start mt-5">
+                <h1 class="header__title">Discover digital art & Collect NFTs</h1>
+                <p class="header__subtitle">NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+                <button class="header__btn btn text-light">
+                    <img src="./images/Rocket.png" alt="">
+                    Get Started</button>
+                    <div class="header__statistics d-flex g-5">
+                        <div class="header__statistic d-flex flex-column align-items-start">
+                            <p class="header__statistic-num space">240k+ </p>
+                            <p class="header__statistic-text">Total Sale</p>
+                        </div>
+                        <div class="header__statistic d-flex flex-column align-items-start">
+                            <p class="header__statistic-num space">100k+</p>
+                            <p class="header__statistic-text">Auctions</p>
+                        </div>
+                        <div class="header__statistic d-flex flex-column align-items-start">
+                            <p class="header__statistic-num space">240k+ </p>
+                            <p class="header__statistic-text">Artists</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="header__card">
+                <img src="./images/header-img.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="header__card-title text-light"> Space Walking</h5>
+                  <div class="header-footer text-light d-flex gap-3">
+                    <div class="header__icon">
+                        <img src="./images/header__icon.png" alt="">
+                    </div>
+                    <p class="header__card-text">Animakid</p>
+                  </div>
+                </div>
+              </div>
+        </header>
+        <section class="collection p-5 d-flex flex-column gap-3">
+            <h1 class="collection__title text-light">Trending Collection</h1>
+            <p class="collection__subtitle text-light mb-5">Checkout our weekly updated trending collection.</p>
+            <div class="collection__cards d-flex justify-content-sm-center gap-4 flex-sm-wrap">
+                <div class="collection__card d-flex flex-column gap-3">
+                    <div class="collection__card-img-big">
+                        <img src="./images/collection-img-big1.png" alt="">
+                    </div>
+                    <div class="collection__card-images-sm d-flex justify-content-between">
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm1.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm2.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm3.png" alt="">
+                        </div>
+                    </div>
+                    <p class="collection__card-text text-light">DSGN Animals</p>
+                    <div class="collection__card-ava d-flex gap-2">
+                        <div class="collection__card-ava-img">
+                            <img src="./images/collection-ava1.png" alt="">
+                        </div>
+                        <p class="collection__card-ava-txt text-light">MrFox</p>
+                    </div>
+                </div>
+                <div class="collection__card d-flex flex-column gap-3">
+                    <div class="collection__card-img-big">
+                        <img src="./images/collection-img-big2.png" alt="">
+                    </div>
+                    <div class="collection__card-images-sm d-flex justify-content-between">
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm4.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm5.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm3.png" alt="">
+                        </div>
+                    </div>
+                    <p class="collection__card-text text-light">Magic Mushrooms</p>
+                    <div class="collection__card-ava d-flex gap-2">
+                        <div class="collection__card-ava-img">
+                            <img src="./images/collection-ava2.png" alt="">
+                        </div>
+                        <p class="collection__card-ava-txt text-light">Shroomie</p>
+                    </div>
+                </div>
+                <div class="c-card-3 collection__card d-flex flex-column gap-3">
+                    <div class="collection__card-img-big">
+                        <img src="./images/collection-img-big1.png" alt="">
+                    </div>
+                    <div class="collection__card-images-sm d-flex justify-content-between">
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm6.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm7.png" alt="">
+                        </div>
+                        <div class="collection__card-img-sm">
+                            <img src="./images/collection-img-sm3.png" alt="">
+                        </div>
+                    </div>
+                    <p class="collection__card-text text-light">Disco Machines</p>
+                    <div class="collection__card-ava d-flex gap-2">
+                        <div class="collection__card-ava-img">
+                            <img src="./images/collection-ava3.png" alt="">
+                        </div>
+                        <p class="collection__card-ava-txt text-light">BeKind2Robots</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="creators p-5 d-flex flex-column gap-5 align-items-sm-center">
+            <div class="creators__text d-flex align-items-end justify-content-between flex-sm-wrap gap-3">
+                <div class="creators__top">
+                    <h1 class="creators__title">Top creators</h1>
+                    <p class="creators__subtitle">Checkout Top Rated Creators on the NFT Marketplace</p>
+                </div>
+                <button class="btn btn-outline-primary creators__btn text-light px-5 py-3">
+                    <img src="./images/Rocket.png" alt=""> View Rankings
+                </button>
+            </div>
+            <div class="creators__cards d-flex flex-sm-wrap gap-5 justify-content-sm-center">
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators1.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Keepitreal</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators2.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">DigiLab</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators3.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">GravityOne</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators4.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Juanie</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators5.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">BlueWhale</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators6.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Mr Fox</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators7.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Shroomie</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators8.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">robotica</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators9.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">RustyRobot</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators10.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">animakid</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators11.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Dotgu</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-sm-center ps-5">
+                    <div class="creators__card  py-3 rounded-3 text-center">
+                        <div class="creators__card-img">
+                            <img src="./images/creators12.png" alt="">
+                        </div>
+                        <h3 class="creators__card-title text-light">Ghiblier</h3>
+                        <div class="creators__card-text d-flex gap-1 justify-content-sm-center">
+                            <p class="creators__gray">Total Sales:</p>
+                            <p class="creators__light text-light">34.53 ETH</p>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+        </section>
+        <section class="categories p-5 d-flex flex-column align-items-sm-center gap-5">
+            <h1 class="categories__title">Browse Categories</h1>
+            <div class="categories__cards gap-3 flex-sm-wrap d-flex justify-content-sm-center">
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories1.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Art</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories2.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Collectibles</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories3.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Music</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories4.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Photography</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories5.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Video</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories6.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Utility</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories7.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Sport</p>
+                    </div>
+                    <div class="categories__card">
+                        <div class="categories__img">
+                            <img src="./images/categories8.png" alt="">
+                        </div>
+                        <p class="categories__card-title text-light p-3 fs-4">Virtual Worlds</p>
+                    </div>
+            </div>
+        </section>
+        <section class="nft d-flex flex-column p-5 gap-4 flex-sm-wrap">
+            <div class="creators__text d-flex align-items-end justify-content-between">
+                <div class="creators__top">
+                    <h1 class="creators__title">Discover More NFTs</h1>
+                    <p class="creators__subtitle">Explore new trending NFTs</p>
+                </div>
+                <button class="btn btn-outline-primary creators__btn text-light px-5 py-3">
+                    <img src="./images/eye.png" alt=""> See All
+                </button>
+            </div>
+            <div class="nft__cards d-flex justify-content-sm-center flex-sm-wrap gap-4">
+
+                    <div class="nft__card d-flex flex-column ">
+                        <div class="nft__card-img">
+                            <img src="./images/nft1.png" alt="">
+                        </div>
+                        <h1 class="nft__card-title text-light p-3">Distant Galaxy</h1>
+                        <div class="collection__card-ava d-flex gap-2 px-3">
+                            <div class="collection__card-ava-img">
+                                <img src="./images/collection-ava1.png" alt="">
+                            </div>
+                            <p class="collection__card-ava-txt text-light space laal">MoonDancer</p>
+                        </div>
+                        <div class="nft__card-price px-3 fs-5 d-flex justify-content-between px-3">
+                            <p>Price</p>
+                            <p>Highest Bid</p>
+                        </div>
+                        <div class="nft__card-footer px-3 fs-5 d-flex text-light justify-content-between">
+                            <p>1.63 ETH</p>
+                            <p>0.33 wETH</p>
+                        </div>
+                    </div>
+                
+                    <div class="nft__card d-flex flex-column ">
+                        <div class="nft__card-img">
+                            <img src="./images/nft2.png" alt="">
+                        </div>
+                        <h1 class="nft__card-title text-light p-3">Life On Edena</h1>
+                        <div class="collection__card-ava d-flex gap-2 px-3">
+                            <div class="collection__card-ava-img">
+                                <img src="./images/collection-ava2.png" alt="">
+                            </div>
+                            <p class="collection__card-ava-txt text-light space laal">NebulaKid</p>
+                        </div>
+                        <div class="nft__card-price px-3 fs-5 d-flex justify-content-between px-3">
+                            <p>Price</p>
+                            <p>Highest Bid</p>
+                        </div>
+                        <div class="nft__card-footer px-3 fs-5 d-flex text-light justify-content-between">
+                            <p>1.63 ETH</p>
+                            <p>0.33 wETH</p>
+                        </div>
+                    </div>
+                 
+                    <div class="nft__card d-flex flex-column ">
+                        <div class="nft__card-img">
+                            <img src="./images/nft3.png" alt="">
+                        </div>
+                        <h1 class="nft__card-title text-light p-3">AstroFiction</h1>
+                        <div class="collection__card-ava d-flex gap-2 px-3">
+                            <div class="collection__card-ava-img">
+                                <img src="./images/collection-ava3.png" alt="">
+                            </div>
+                            <p class="collection__card-ava-txt text-light space laal">Spaceone</p>
+                        </div>
+                        <div class="nft__card-price px-3 fs-5 d-flex justify-content-between px-3">
+                            <p>Price</p>
+                            <p>Highest Bid</p>
+                        </div>
+                        <div class="nft__card-footer px-3 fs-5 d-flex text-light justify-content-between">
+                            <p>1.63 ETH</p>
+                            <p>0.33 wETH</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+        <section class="mushroom d-flex align-items-end p-5 justify-content-between flex-sm-wrap">
+            <div class="mushroom__text m-5 d-flex flex-column gap-1 align-items-start">
+                <div class="mushroom__icons">
+                    <img src="./images/magic-icon.png" alt="">
+                </div>
+                <h1 class="mushroom__title text-light">Magic Mashrooms</h1>
+                <button class="mushroom__btn btn btn-light rounded-3 px-4 py-2">
+                    <img src="./images/Eye.png" alt="">
+                    See NFT
+                </button>
+            </div>
+            <div class="mushroom__timer m-5">
+                <img src="./images/Timer.png" alt="">
+            </div>
+        </section>
+        <section class="works d-flex flex-column p-5 gap-3 align-items-sm-center">
+            <h1 class="works__title text-light">How it works</h1>
+            <p class="works__subtitle text-light">Find out how to get started</p>
+            <div class="works__cards d-flex gap-2 flex-sm-wrap justify-content-sm-center">
+                    <div class="works__card d-flex flex-column align-items-sm-center rounded-3 gap-4 px-3">
+                        <div class="works__card-img">
+                            <img src="./images/works1.png" alt="">
+                        </div>
+                        <h1 class="works__card-title text-light text-center">Setup Your wallet</h1>
+                        <p class="works__card-subtitle text-light text-center">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                    </div>
+                    <div class="works__card d-flex flex-column align-items-sm-center rounded-3 gap-4 px-3">
+                        <div class="works__card-img">
+                            <img src="./images/works1.png" alt="">
+                        </div>
+                        <h1 class="works__card-title text-light text-center">Setup Your wallet</h1>
+                        <p class="works__card-subtitle text-light text-center">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                    </div>
+                    <div class="works__card d-flex flex-column align-items-sm-center rounded-3 gap-4 px-3">
+                        <div class="works__card-img">
+                            <img src="./images/works1.png" alt="">
+                        </div>
+                        <h1 class="works__card-title text-light text-center">Setup Your wallet</h1>
+                        <p class="works__card-subtitle text-light text-center">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                    </div>
+            </div>
+        </section>
+        <section class="digest p-5 d-flex justify-content-sm-center">
+            <div class="digest__card d-flex justify-content-sm-center gap-5 flex-sm-wrap ">
+                <div class="digest__card-img">
+                    <img src="./images/digest-img.png" alt="">
+                </div>
+                <div class="digest__card-text d-flex flex-column gap-2">
+                    <h1 class="digest__card-title text-light">Join our weekly digest</h1>
+                    <p class="digest__card-subtitle pb-2 text-light">Get exclusive promotions & updates straight to your inbox.</p>
+                    <div class="digest__card-swipe d-flex align-items-sm-center justify-content-between">
+                        <p class="digest__card-swipe-text align-self-center pt-3">Enter your email here</p>
+                        <button class="btn digest__card-btn text-light">
+                            <img src="./images/EnvelopeSimple.png" alt="">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer p-5 d-flex flex-column gap-5 align-items-sm-center">
+            <div class="footer__items d-flex flex-sm-wrap">
+                <div class="footer__item">
+                    <img src="./images/nav-logo/nav/logo.png" alt="">
+                    <p class="footer__item-text">NFT marketplace UI created with Anima for Figma.</p>
+                    <p class="footer__item-text">Join our community</p>
+                    <img src="./images/Icons.png" alt="">
+                </div>
+                <div class="footer__item">
+                    <h2 class="footer__title space text-light fs-4">Explore</h2>
+                    <p class="footer__item-text">Marketplace</p>
+                    <p class="footer__item-text">Rankings</p>
+                    <p class="footer__item-text">Connect a wallet</p>
+                </div>
+                <div class="footer__item">
+                    <h2 class="footer__title space text-light fs-4">Join our weekly digest</h2>
+                    <p class="footer__item-text">Get exclusive promotions & updates straight to your inbox.</p>
+                    <div class="digest__card-swipe d-flex align-items-sm-center justify-content-between">
+                        <p class="digest__card-swipe-text align-self-center pt-3">Enter your email here</p>
+                        <button class="btn digest__card-btn text-light">
+                            <img src="./images/EnvelopeSimple.png" alt="">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__line">Ⓒ NFT Market. Use this template freely.</div>
+        </footer>
+    </div>
+</body>
+</html>

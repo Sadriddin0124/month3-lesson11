@@ -1,0 +1,56 @@
+%btn__global {
+    background-color: #A259FF !important;
+    border-radius: 20px !important;
+    // padding: 0px 30px !important;
+    font-size: 16px !important;
+}
+
+%title {
+    font-size: 38px;
+    font-weight: 600;
+    // line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+%subtitle {
+    font-size: 22px;
+    font-weight: 400;
+    // line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.creators__title {
+    @extend %title;
+}
+
+.creators__subtitle {
+    @extend %subtitle;
+}
+
+.creators__btn {
+    background-color: #2B2B2B;
+    border: 2px solid #A259FF !important;
+    border-radius: 20px !important;
+}
+
+.creators__gray {
+    color: #858584;
+    background-color: transparent;
+}
+
+.creators__card-img,.creators__card-text,.creators__card-title,.creators__card,.creators__light {
+    background: #3B3B3B;
+    img {
+        background-color: #3B3B3B;
+    }
+}
+
+ 
+
+.creators__card {
+    width: 240px;
+}

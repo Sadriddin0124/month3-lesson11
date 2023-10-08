@@ -1,0 +1,44 @@
+.mushroom__title {
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.mushroom {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../images/magic-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mushroom__icons {
+  width: 151px;
+  height: 44px;
+  border-radius: 20px;
+}
+.mushroom__icons img {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.mushroom__text, .mushroom__title {
+  background-color: transparent;
+}
+
+.mushroom__btn img {
+  background-color: transparent;
+}
+
+.mushroom__timer {
+  background-color: transparent;
+}
+.mushroom__timer img {
+  border-radius: 20px;
+  background-color: transparent;
+}/*# sourceMappingURL=magic.css.map */
