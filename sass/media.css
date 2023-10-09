@@ -33,4 +33,7 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .works__card-title {
+    align-self: flex-start;
+  }
 }/*# sourceMappingURL=media.css.map */

@@ -39,6 +39,8 @@
 
 .works__card-title {
   font-size: 22px;
+  max-width: 220px;
+  align-self: flex-start !important;
 }
 
 .works__card-subtitle {
