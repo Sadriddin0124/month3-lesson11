@@ -30,6 +30,10 @@
 
 .categories__cards {
     max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap
 }
 
 .categories__card {

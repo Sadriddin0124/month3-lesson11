@@ -17,3 +17,29 @@
         justify-content: center !important;
     }
 }
+
+@media (max-width: 575px) {
+    .collection__cards {
+        flex-direction: column !important;
+    }
+    .c-card-3 {
+        display: none;
+    }
+    .digest__card-swipe-text  {
+        font-size: 10px;
+    }
+    .digest__card-btn {
+        font-size: 10px !important;
+        padding: 6px 12px;
+        img {
+            // display: none;
+        }
+    }
+    %title {
+        font-size: 22px;
+    }
+    .creators__text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -52,6 +52,14 @@ body {
   justify-content: space-between !important;
 }
 
+.navbar__logoo {
+  max-width: 243px;
+  width: 200px;
+}
+.navbar__logoo img {
+  width: 100%;
+}
+
 .navbar__list {
   display: flex;
   padding: 20px;
@@ -71,6 +79,7 @@ body {
 
 .header__text {
   max-width: 510px;
+  flex-wrap: wrap-reverse !important;
 }
 
 .header__card {
@@ -134,6 +143,9 @@ body {
 
 .header__statistics {
   max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__statistic {

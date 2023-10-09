@@ -1,8 +1,12 @@
 .digest__card {
-  max-width: 1050px !important;
-  padding: 60px;
+  max-width: 1050px;
+  padding: 40px;
   background-color: #3B3B3B;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .digest__card-text {
@@ -11,7 +15,7 @@
 }
 
 .digest__card-swipe {
-  width: 400px;
+  max-width: 400px;
   height: 49px;
   gap: 12px;
   padding-left: 20px;
@@ -21,16 +25,24 @@
 
 .digest__card-swipe-text {
   background-color: transparent;
+  font-size: 12px;
 }
 
 .digest__card-btn {
-  background-color: #A259FF !important;
-  padding: 12px 30px !important;
-  border-radius: 20px !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: #A259FF;
+  padding: 12px 30px;
+  border-radius: 20px;
   font-size: 16px;
+  border: none;
 }
 .digest__card-btn img {
   background-color: transparent;
+  display: block;
 }
 
 .digest__card-title {
@@ -52,8 +64,10 @@
 }
 
 .digest__card-img {
+  max-width: 425px;
   background-color: transparent;
 }
 .digest__card-img img {
+  width: 100%;
   background-color: transparent;
 }/*# sourceMappingURL=digest.css.map */

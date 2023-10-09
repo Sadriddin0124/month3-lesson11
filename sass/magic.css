@@ -13,6 +13,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .mushroom__icons {

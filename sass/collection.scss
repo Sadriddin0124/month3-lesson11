@@ -23,10 +23,31 @@
 
 }
 
+.collection__cards {
+    flex-direction: row;
+    // d-flex justify-content-sm-center gap-4 flex-sm-wrap
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
 .collection__title {
     @extend %title;
 }
 
 .collection__subtitle {
     @extend %subtitle;
+}
+
+.colleection__card,.collection__card-img-big,.collection__card-images-sm {
+    max-width: 330px;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.collection__card-images-sm {
+    flex-wrap: wrap;
 }

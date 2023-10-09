@@ -10,4 +10,24 @@
   font-weight: 400;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.collection__cards {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.colleection__card, .collection__card-img-big, .collection__card-images-sm {
+  max-width: 330px;
+  width: 100%;
+}
+.colleection__card img, .collection__card-img-big img, .collection__card-images-sm img {
+  width: 100%;
+}
+
+.collection__card-images-sm {
+  flex-wrap: wrap;
 }/*# sourceMappingURL=collection.css.map */

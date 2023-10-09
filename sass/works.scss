@@ -23,6 +23,13 @@
     color: #fff;
 }
 
+.works__cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap
+}
+
 .works__card {
     max-width: 330px;
     // height: 440px;

@@ -1,5 +1,10 @@
 .nft__cards {
-  max-width: 1200px;
+  max-width: 1200px !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .nft__card-title {
